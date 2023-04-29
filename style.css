@@ -106,6 +106,8 @@ ul {
     list-style-type: square;
 }
 
+/*CSS para celular*/
+
 @media only screen and (max-width: 600px) {
 
     body {
@@ -115,11 +117,11 @@ ul {
 
     .caixa {
         width: auto;
+        padding: 0px;
     }
 
     a {
         display: block;
-        text-align: center;
     }
 
     img {
