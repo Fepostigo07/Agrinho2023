@@ -119,7 +119,7 @@ ul {
 
     a {
         display: block;
-        word-break: break-word ;
+        text-align: center;
     }
 
     img {
