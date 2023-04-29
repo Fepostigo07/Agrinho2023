@@ -15,8 +15,7 @@ header {
 }
 .caixa {
     width: 940px;
-    margin: 0 auto;
-    padding: 0px;
+    margin: 0 auto
 }
 
 nav li {
@@ -107,6 +106,8 @@ ul {
     list-style-type: square;
 }
 
+/*CSS para Celular*/
+
 @media only screen and (max-width: 600px) {
 
     body {
@@ -116,9 +117,10 @@ ul {
 
     .caixa {
         width: auto;
+        padding: 0px;
     }
 
-    a {
+    nav a {
         display: block;
         word-break: break-word ;
     }
