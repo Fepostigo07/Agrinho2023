@@ -15,7 +15,8 @@ header {
 }
 .caixa {
     width: 940px;
-    margin: 0 auto
+    margin: 0 auto;
+    padding: 0px;
 }
 
 nav li {
@@ -117,7 +118,6 @@ ul {
 
     .caixa {
         width: auto;
-        padding: 0px;
     }
 
     nav a {
