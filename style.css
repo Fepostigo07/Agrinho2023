@@ -49,6 +49,16 @@ img {
     border-radius: 10px;
 }
 
+.legenda {
+    color: gray;
+    margin: 2px 0;
+}
+
+.legenda a {
+    color: gray;
+}
+
+
 /* CSS da Página de Reciclagem Mecânica*/
 
 td, th {
