@@ -12,6 +12,7 @@ body {
 header {
     padding: 70px 0;
     background-image: linear-gradient(90deg, #83A338, #6F8F2D);
+    width: auto;
 }
 .caixa {
     width: 940px;
@@ -44,9 +45,21 @@ main {
     background: white;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
 img {
     box-shadow: 10px 10px 16px #00000070;
     border-radius: 10px;
+}
+
+h2 {
+    font-size: 28px;
 }
 
 .legenda {
@@ -58,6 +71,9 @@ img {
     color: gray;
 }
 
+h3 {
+    font-size: 22.72px;
+}
 
 /* CSS da Página de Reciclagem Mecânica*/
 
@@ -119,11 +135,11 @@ ul {
 
 /*CSS para Celular*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 615px) {
 
     body {
         height: auto;
-        max-width: 600px;
+        max-width: 615px;
     }
 
     .caixa {
@@ -133,6 +149,10 @@ ul {
     nav a {
         display: block;
         word-break: break-word ;
+    }
+
+    p {
+        font-size: 25px;
     }
 
     img {
